@@ -18,7 +18,7 @@ Numerical Linear Algebra| Random Matrix Theory| Numerical Optimization ([CV](Hui
 
 * MS, Mathematics, University of California, Irvine, 2016
 
-* BS, Mathematics: Sichuan Univerisity, 2014
+* BS, Mathematics: Sichuan Univerisity, 2013
 
 
 

@@ -5,10 +5,4 @@ description: A virtual proof that I'm awesome
 
 author: 
         name: Huiwen Wu
-exclude:
-        - index.md
-        - projects.md
-        - research.md
-        - HuiwenWu_CV_0809.pdf
-
 

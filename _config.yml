@@ -1,1 +1,14 @@
 theme: jekyll-theme-cayman
+
+title: Huiwen's website 
+description: A virtual proof that I'm awesome 
+
+author: 
+        name: Huiwen Wu
+exclude:
+        - index.md
+        - projects.md
+        - research.md
+
+
+

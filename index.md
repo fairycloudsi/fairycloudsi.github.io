@@ -6,12 +6,12 @@ I am actively looking for position as machine learning engineer and data scienti
 My thesis topic is randomized solvers for linear and nonlinear problems in data science. I tried to apply and improve 
 optimization methods to machine learning problems. 
 
-Here is a glance of my [research projects.](../research.md) 
+Here is a glance of my [research projects.](research.md) 
 
 
 I also have a strong interest in applying optimization methods to real world data challenges. 
 
-Here is a lists of projects for solving real world problems by utilizing machine learning and deep learning techniques. [Check Here.](../projects.md)
+Here is a lists of projects for solving real world problems by utilizing machine learning and deep learning techniques. [Check Here.](projects.md)
 
 
 

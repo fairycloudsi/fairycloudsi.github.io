@@ -6,3 +6,12 @@ description: A virtual proof that I'm awesome
 author: 
         name: Huiwen Wu
 
+social-network-links:
+        email: "fairycloudsi@gmail.com"
+        github: "fairycloudsi"
+
+exclude:
+        - index.md
+        - projects.md
+        - research.md
+

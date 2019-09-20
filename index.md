@@ -14,7 +14,7 @@ Numerical Linear Algebra| Random Matrix Theory| Numerical Optimization ([CV](Hui
 
 ## Education Background:
 
-* Ph.D, Mathematics, University of California, Irvine , 2019(Advisor: [Long Chen](https://www.math.uci.edu/~chenlong/))
+* Ph.D, Mathematics, University of California, Irvine , 2019 (Advisor: [Long Chen](https://www.math.uci.edu/~chenlong/))
 
 * MS, Mathematics, University of California, Irvine, 2016
 

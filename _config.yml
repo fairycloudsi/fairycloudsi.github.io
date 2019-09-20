@@ -1,7 +1,9 @@
 theme: jekyll-theme-cayman
 
 title: Huiwen Wu
-description: Applied Math Candidate in UC Irvine
+description: Applied Math Ph.D Candidate in UC Irvine
+email: fairycloudsi@gmail.com
+sitemap: true
 
 author: 
         name: Huiwen Wu

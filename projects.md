@@ -1,6 +1,6 @@
 # Machine Learning Projects
 
-- [Home Credit Default Risk](https://github.com/fairycloudsi/HomeCredit/blob/master/Home_Credit_EDA.ipynb)
+- [Home Credit Default Risk](https://github.com/fairycloudsi/HomeCredit/blob/master/README.md)
 1. Developed k-fold LightGBM (Light Gradient Boosting Machine) model. 
 2. Predicted repayment capabilities of each client. 
 3. Achieved AUC (area under the curve) to 0.787 compared with Logistic Regression model 0.671 and Random Forest model 0.678. 

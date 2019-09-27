@@ -6,7 +6,7 @@
 3. Achieved AUC (area under the curve) to 0.787 compared with Logistic Regression model 0.671 and Random Forest model 0.678. 
 4. Training data has 307,511 observations and 122 features and testing data has 48,744 observations and 121 features. 
 
-- NLP Sentiment Analysis with Emoji Labels 
+- [NLP Sentiment Analysis with Emoji Labels](https://github.com/fairycloudsi/NLP_Sentiment_Analysis/blob/master/README.md) 
 1. Converted training/testing features into vector list using pre-trained GloVe model. 
 2. Inserted a keras Embedding layer given word to vector mapping. 
 3. Build and trained a 2 layer LSTM network. 

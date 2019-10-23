@@ -1,7 +1,7 @@
 # Research Projects and Publications 
 
 ## Projects 
-- Randomized Fast Subspace Descent Scheme 
+- [Randomized Fast Subspace Descent Scheme](https://github.com/fairycloudsi/LS_eg_data/blob/master/README.md) 
 1. Developed a general scheme of gradient methods. 
 2. Analyzed convergence for both convex and strongly convex problems. 
 3. Numerical experiments on Nestrov's worst function and Ridge Penalized Logistic Regression. 

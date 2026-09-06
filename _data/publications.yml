@@ -1,0 +1,127 @@
+# ---------------------------------------------------------------------------
+# Publications. Newest first within each year.
+#
+# Fields:
+#   authors  free text; wrap your own name in <span class="me">H. Wu</span>
+#   venue    short venue name shown as a chip
+#   rank     CCF rating or similar, shown as a second chip
+#   role     first author / corresponding author / etc.
+#   note     anything extra (acceptance rate, oral, ...)
+#   url      optional link; the title becomes a link when present
+# ---------------------------------------------------------------------------
+
+- year: 2026
+  title: "Synergizing Multigrid Algorithms with Vision Transformer: A Novel Approach to Enhance the Seismic Foundation Model"
+  authors: "<span class=\"me\">H. Wu</span>, et al."
+  venue: "AAAI'26"
+  rank: "CCF-A"
+  role: "first author"
+
+- year: 2025
+  title: "Decoding RR Lyrae light curves for accurate absolute magnitude estimation"
+  authors: "S. He, <span class=\"me\">H. Wu</span>, et al."
+  venue: "The Innovation"
+  rank: "Q1-Top"
+  role: "corresponding author"
+
+- year: 2025
+  title: "DR-Encoder: Encode Low-rank Gradients with Random Prior for Large Language Models Differentially Privately"
+  authors: "<span class=\"me\">H. Wu</span>, et al."
+  venue: "AAAI'25"
+  rank: "CCF-A"
+  role: "first author"
+
+- year: 2025
+  title: "PDFL: A Privacy-Enhancing and Robust Poisoning Defense Federated Learning Scheme"
+  authors: "G. Wang, et al."
+  venue: "IEEE TIFS"
+  rank: "CCF-A"
+  role: "co-author"
+
+- year: 2025
+  title: "VFGCN: A Vertical Federated Learning Framework with Privacy Preserving for Graph Convolutional Network"
+  authors: "G. Wang, et al."
+  venue: "IEEE TKDE"
+  rank: "CCF-A"
+  role: "co-author"
+
+- year: 2025
+  title: "CG-FedLLM: How to Compress Gradients in Federated Fine-tuning for Large Language Models"
+  authors: "<span class=\"me\">H. Wu</span>, et al."
+  venue: "ECAI'25"
+  rank: "CCF-B"
+  role: "first author"
+
+- year: 2025
+  title: "DPFedSub: A Differentially Private Federated Learning Scheme with Randomized Subspace Descent Optimization"
+  authors: "<span class=\"me\">H. Wu</span>, et al."
+  venue: "ACISP'25"
+  rank: "CCF-C"
+  role: "first author"
+
+- year: 2025
+  title: "Improving Frequency Estimation Mechanisms under Local Differential Privacy"
+  authors: "S. Sun, J. Wu, J. Yang, L. Zhou, <span class=\"me\">H. Wu</span>*"
+  venue: "ACISP'25"
+  rank: "CCF-C"
+  role: "corresponding author"
+
+- year: 2025
+  title: "Do Global and Local Perform Cooperatively or Adversarially in Heterogeneous Federated Learning?"
+  authors: "<span class=\"me\">H. Wu</span>, S. Zhang"
+  venue: "CPAL'25"
+  role: "first author"
+
+- year: 2025
+  title: "Comparing and Improving Perturbation Mechanisms under Local Differential Privacy"
+  authors: "S. Sun, et al."
+  venue: "Inscrypt'25"
+  rank: "CCF-C"
+  role: "co-author"
+
+- year: 2025
+  title: "Weakest precondition calculus and relative completeness of satisfaction-based quantum Hoare logic"
+  authors: "X. Sun, et al."
+  venue: "Quantum Information Processing"
+  role: "co-author"
+
+- year: 2024
+  title: "A Variational Approach to Personalized Federated Learning and its Improvement"
+  authors: "<span class=\"me\">H. Wu</span>, S. Zhang*"
+  venue: "PKAW'24"
+  role: "first author"
+  note: "Long paper, 28.8% acceptance"
+
+- year: 2024
+  title: "Fast and Robust Differential Private Stochastic Gradient Descent with Preconditioner"
+  authors: "<span class=\"me\">H. Wu</span>*"
+  venue: "PKAW'24"
+  role: "sole author"
+  note: "Long paper, 28.8% acceptance"
+
+- year: 2024
+  title: "FedScale: A Federated Unlearning Method Mimicking Human Forgetting Processes"
+  authors: "W. Huang, <span class=\"me\">H. Wu</span>*, et al."
+  venue: "WASA'24"
+  rank: "CCF-C"
+  role: "corresponding author"
+
+- year: 2023
+  title: "Powerful Encoding and Decoding Computation of Reservoir Computing"
+  authors: "W. Li, <span class=\"me\">H. Wu</span>, D. Yang"
+  venue: "ICIRA'23"
+  role: "co-author"
+
+- year: 2022
+  title: "Differential Private Knowledge Transfer for Privacy-Preserving Cross-Domain Recommendation"
+  authors: "C. Chen, <span class=\"me\">H. Wu</span>*, et al."
+  venue: "WWW'22"
+  rank: "CCF-A"
+  role: "corresponding author"
+
+- year: 2022
+  title: "Vertically Federated Graph Neural Network for Privacy-Preserving Node Classification"
+  authors: "C. Chen, J. Zhou, L. Zheng, <span class=\"me\">H. Wu</span>, et al."
+  venue: "IJCAI-ECAI'22"
+  rank: "CCF-A"
+  role: "co-author"

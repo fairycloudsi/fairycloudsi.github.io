@@ -1,0 +1,13 @@
+# US patents listed on the CV. The CV summary mentions 10 authorized patents in
+# total -- add the remaining ones here in the same format when you have the
+# numbers to hand.
+
+- number: "US 20,240,045,993"
+  title: "Methods, Systems, and Apparatuses for Training Privacy Preserving Model"
+  authors: "<span class=\"me\">H. Wu</span>, et al."
+  role: "first author"
+
+- number: "US 20,240,046,160"
+  title: "Methods, Systems, and Apparatuses for Training Privacy Protection Model"
+  authors: "<span class=\"me\">H. Wu</span>, et al."
+  role: "first author"

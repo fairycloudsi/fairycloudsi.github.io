@@ -1,0 +1,22 @@
+# Highlighted research projects, shown on the Research page.
+
+- title: "Multigrid&ndash;ViT Fusion for Seismic Foundation Models"
+  venue: "AAAI'26 &middot; CCF-A"
+  points:
+    - "Pioneered the first integration of <strong>multigrid numerical methods</strong> with Vision Transformers for seismic data, designing an adaptive two-grid training strategy that exploits the hierarchical structure in a seismogram."
+    - "Developed <strong>Hilbert curve encoding</strong> to preserve the spatial locality of 2D seismograms during tokenization, coupled with a Fourier-based spectral decomposition that separates low-frequency geological structure from high-frequency detail in embedding space."
+  result: "<strong>96.4% reduction in MAE</strong> (0.1886 &rarr; 0.0068) against standard ViT baselines on foundation-model pretraining for seismogram reconstruction."
+
+- title: "Communication-Efficient and Differentially Private Federated Fine-tuning for LLMs"
+  venue: "AAAI'25, ECAI'25 &middot; CCF-A/B"
+  points:
+    - "Developed <strong>CG-FedLLM</strong> (ECAI'25): low-rank gradient compression with learnable auto-encoders, achieving 98.44% gradient compression while preserving model performance on MMLU and C-Eval."
+    - "Pioneered <strong>DR-Encoder</strong> (AAAI'25): the first framework to jointly optimize gradient compression and differential privacy for LoRA fine-tuning with random Gaussian priors, reducing communication to 1.56% under strict privacy constraints."
+  result: "<strong>Near-non-private accuracy</strong> on C-Eval (+1.2%) and MMLU (+0.8%) at &epsilon; = 0.25 &mdash; closing a utility gap where prior DP-LLM approaches (e.g. DP-FedLoRA) lose more than 50% at the same &epsilon;."
+
+- title: "Differentially Private Knowledge Transfer for Recommendation"
+  venue: "WWW'22 &middot; CCF-A"
+  points:
+    - "Pioneered <strong>PriCDR-J</strong> and <strong>PriCDR-S</strong>, the first framework enabling cross-domain knowledge transfer under strict differential privacy guarantees (&epsilon; &le; 0.5), overcoming the utility collapse inherent in naive DP applied to transfer learning."
+    - "Designed <strong>spectrally-aware perturbation mechanisms</strong> using randomized Hadamard transforms to preserve the low-rank structure of knowledge-transfer matrices; proved spectral distortion bounds via random matrix theory."
+  result: "<strong>+8.43% accuracy</strong> over the private state of the art (PriCDR-SYM) on Amazon cross-domain benchmarks at &epsilon; = 0.5."

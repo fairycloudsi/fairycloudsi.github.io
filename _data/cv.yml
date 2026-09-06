@@ -1,0 +1,104 @@
+# ---------------------------------------------------------------------------
+# Everything on the CV page except publications and patents.
+# ---------------------------------------------------------------------------
+
+experience:
+  - when: "2026 &ndash;"
+    role: "Associate Researcher"
+    org: "Beihang University, Hangzhou International Innovation Institute"
+    where: "Hangzhou, Zhejiang"
+    points:
+      - "Trustworthy large language models and AI for science."
+      - "Developing mathematically grounded privacy-preserving algorithms for large-scale foundation models, with domain-driven applications in geophysics (seismic imaging) and astronomy (galaxy simulation for CSST)."
+
+  - when: "2022&ndash;26"
+    role: "Senior Researcher"
+    org: "Zhejiang Laboratory"
+    where: "Hangzhou, Zhejiang"
+    points:
+      - "Trustworthy large language models and AI for scientific discovery."
+      - "Bridged numerical analysis, differential privacy, and scientific machine learning to enable collaborative AI."
+
+  - when: "2020&ndash;22"
+    role: "Senior Algorithm Engineer"
+    org: "Ant Group"
+    where: "Hangzhou, Zhejiang"
+    points:
+      - "Trustworthy federated learning."
+      - "Developed fast and robust optimization methods for privacy-preserving federated learning and transfer learning."
+
+education:
+  - when: "2019"
+    degree: "Ph.D. in Mathematics"
+    org: "University of California, Irvine"
+    where: "Irvine, California"
+    points:
+      - "Thesis: <em>Randomized Fast Solvers for Linear and Nonlinear Problems in Data Science</em>."
+      - "Advisor: Prof. Long Chen. GPA 3.97/4.0."
+
+  - when: "2013"
+    degree: "B.A. in Mathematics"
+    org: "Sichuan University"
+    where: "Chengdu, Sichuan"
+    points:
+      - "Graduated with Honors. GPA 3.75/4.0."
+      - "Top-notched Student Scholarship, 2009&ndash;2013."
+
+funding:
+  - when: "2026&ndash;31"
+    title: "AI-Powered Galaxy Simulation and Evolution of Milky Way Analogs for the Chinese Space Station Telescope (CSST)"
+    detail: "National Key R&amp;D Program, Engineering Sciences and Interdisciplinary Integration &middot; 20,000,000 CNY"
+    role: "Core Member"
+
+  - when: "2023&ndash;26"
+    title: "Key Technologies and Applications of Large-Scale Distributed Trustworthy Intelligent Computing Based on Blockchain"
+    detail: "National Key R&amp;D Program, Blockchain Key Special Project &middot; 19,982,000 CNY"
+    role: "Participant"
+
+  - when: "2023&ndash;24"
+    title: "Zhejiang Lab Talent Fund for Young Professionals"
+    detail: "200,000 CNY"
+    role: "Principal Investigator"
+
+  - when: "2024"
+    title: "Young Talent Nurturing Project, Zhejiang Lab"
+    detail: "Selected, August &ndash; November 2024"
+    role: ""
+
+talks:
+  - when: "2026"
+    title: "Synergizing Multigrid Algorithms with Vision Transformer: A Novel Approach to Enhance the Seismic Foundation Model"
+    venue: "AAAI, oral"
+  - when: "2024"
+    title: "Advancing Large Language Model Privacy and Efficiency in Federated Learning: Empirical Improvements"
+    venue: "Chinese Academy of Sciences, invited"
+  - when: "2024"
+    title: "A Variational Approach to Personalized Federated Learning and its Improvement"
+    venue: "PKAW, oral"
+  - when: "2022"
+    title: "Privacy-preserving techniques in Transfer and Federated Learning"
+    venue: "Chinese Academy of Sciences, invited"
+  - when: "2022"
+    title: "Differential Private Knowledge Transfer for Privacy-Preserving Cross-Domain Recommendation"
+    venue: "The Web Conference (WWW)"
+  - when: "2017"
+    title: "A Preconditioner based on Non-uniform Row Sampling for Linear Least Squares Problems"
+    venue: "Southern California Applied Mathematics Symposium (SOCAMS)"
+
+expertise:
+  - label: "Privacy &amp; FL"
+    items: "Differential privacy (RDP/GDP accounting), federated optimization, secure aggregation"
+  - label: "Optimization"
+    items: "Stochastic gradient methods, preconditioning, multigrid algorithms, variational inference"
+  - label: "Domains"
+    items: "Seismic imaging, galaxy simulation, cross-domain recommendation, large language models"
+  - label: "Tools"
+    items: "PyTorch, TensorFlow, Olmo, CUDA"
+
+services:
+  - label: "PC Member"
+    items: "AAAI'23&ndash;'26, AAAI-AIA'26, PRICAI'23&ndash;'25, INCRYPT'23"
+  - label: "Reviewer"
+    items: "AISTATS'22&ndash;'24, WWW'25, ACM MM'24&ndash;'25, ICME'24&ndash;'26, ICASSP'25, IEEE TIFS"
+  - label: "Session Chair"
+    items: "IJCAI-ECAI'22, PKAW'24"

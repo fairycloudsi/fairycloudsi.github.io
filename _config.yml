@@ -1,0 +1,55 @@
+# ---------------------------------------------------------------------------
+# Personal academic website -- Huiwen Wu
+#
+# This is a USER SITE: the repository must be named exactly
+#     fairycloudsi.github.io
+# and it is then served from the root, https://fairycloudsi.github.io/
+# That is why baseurl is empty. (A project site, e.g. a course repo, would need
+# baseurl: "/repo-name" instead.)
+#
+# GitHub Pages builds this natively -- no plugins, no CI, no theme dependency.
+# ---------------------------------------------------------------------------
+
+title: "Huiwen Wu"
+tagline: "Trustworthy foundation models, privacy-preserving LLMs, and AI for science"
+description: >-
+  Huiwen Wu -- Associate Researcher at Beihang University, Hangzhou International
+  Innovation Institute. Differential privacy, federated optimization, and
+  numerical analysis for scientific foundation models.
+
+baseurl: ""
+url: "https://fairycloudsi.github.io"
+
+# --- Identity -------------------------------------------------------------
+# Change `name` here if you prefer the family-name-first form "Wu Huiwen";
+# it is used for the site title, the home page heading, and the footer.
+author:
+  name: "Huiwen Wu"
+  role: "Associate Researcher"
+  affiliation: "Beihang University, Hangzhou International Innovation Institute"
+  location: "Hangzhou, Zhejiang, China"
+  email: "huiwenw0820@outlook.com"
+  github: "fairycloudsi"
+  linkedin: "Huiwen Wu"
+  scholar: "https://scholar.google.com/citations?user=EYswXa8AAAAJ&hl=en"
+  genealogy: "https://www.mathgenealogy.org/id.php?id=278734"
+  # Phone is deliberately omitted -- see README. Add it here only if you want a
+  # personal number published on a public page.
+
+# --- Build ----------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

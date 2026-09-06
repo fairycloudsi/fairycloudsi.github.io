@@ -66,6 +66,24 @@ Programs, including AI-powered galaxy simulation for the Chinese Space Station T
 
 <p><a href="{{ '/research/' | relative_url }}">Read more about these projects &rarr;</a></p>
 
+## Teaching
+
+{% for c in site.data.teaching %}
+<div class="project">
+  <h3>{% if c.url %}<a href="{{ c.url }}">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</h3>
+  <div class="chips">
+    <span class="chip chip--venue">{{ c.code }}</span>
+    <span class="chip">{{ c.level }}</span>
+    <span class="chip">{{ c.format }}</span>
+    <span class="chip chip--role">{{ c.when }}</span>
+  </div>
+  <div class="result">{{ c.summary }}
+  {% if c.url %}<a href="{{ c.url }}">Course website &rarr;</a>{% endif %}</div>
+</div>
+{% endfor %}
+
+<p><a href="{{ '/teaching/' | relative_url }}">All teaching &rarr;</a></p>
+
 ## Background
 
 <div class="rows">

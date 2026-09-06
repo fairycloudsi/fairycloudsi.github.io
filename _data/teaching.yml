@@ -1,0 +1,21 @@
+# ---------------------------------------------------------------------------
+# Courses. Shown on the Teaching page, on the home page, and on the CV --
+# all three read from this one file.
+#
+# `url` is optional. When present the course title becomes a link to its site.
+# ---------------------------------------------------------------------------
+
+- when: "2026&ndash;"
+  code: "M571011S03"
+  title: "Matrix Theory and Applications I"
+  url: "https://fairycloudsi.github.io/matrix-theory-i/"
+  level: "Graduate"
+  format: "16 weeks &middot; 32 contact hours"
+  summary: >-
+    A graduate course on matrix theory and matrix computations for students in
+    artificial intelligence and related disciplines, built on Golub &amp; Van Loan's
+    <em>Matrix Computations</em>.
+  points:
+    - "Runs the book's own build order rather than the conventional one: the SVD arrives in Week 3 as an <em>analysis</em> tool, and its stable computation waits until Week 14, after QR iteration makes it derivable."
+    - "Conditioning is taught in Week 4, before any solver, so every algorithm that follows can be judged against it."
+    - "Five programming assignments, each following the same rule &mdash; implement it, then verify against a reference implementation."

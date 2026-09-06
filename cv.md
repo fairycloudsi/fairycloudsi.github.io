@@ -38,6 +38,20 @@ Contact: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</
 {% endfor %}
 </ul>
 
+## Teaching
+
+<ul class="entries">
+{% for c in site.data.teaching %}
+  <li class="entry">
+    <span class="when">{{ c.when }}</span>
+    <div class="what">
+      <span class="title">{% if c.url %}<a href="{{ c.url }}">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</span>
+      <span class="meta">{{ c.code }} &middot; {{ c.level }} &middot; {{ c.format }}</span>
+    </div>
+  </li>
+{% endfor %}
+</ul>
+
 ## Funding
 
 <ul class="entries">

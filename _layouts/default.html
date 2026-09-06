@@ -22,7 +22,7 @@
   <div class="wrap">
     <a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
     <nav class="site-nav">
-      {% assign nav = "/,Home|/research/,Research|/publications/,Publications|/cv/,CV" | split: "|" %}
+      {% assign nav = "/,Home|/research/,Research|/publications/,Publications|/teaching/,Teaching|/cv/,CV" | split: "|" %}
       {% for item in nav %}
         {% assign bits = item | split: "," %}
         {% assign href = bits[0] %}

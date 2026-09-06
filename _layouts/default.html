@@ -3,13 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title and page.url != "/" %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
+  {%- comment -%}
+    Search discoverability. The three things that actually move the needle:
+      1. a <title> that leads with the name and affiliation,
+      2. a meta description that repeats them in a natural sentence,
+      3. schema.org Person JSON-LD, which lets a search engine resolve
+         "Huiwen Wu" to an entity with an affiliation rather than a string.
+    The keywords tag is included for Baidu; Google has ignored it since 2009.
+  {%- endcomment -%}
+  {%- if page.url == "/" -%}
+    {%- assign page_title = site.title_long -%}
+  {%- else -%}
+    {%- assign page_title = page.title | append: " · " | append: site.title_long -%}
+  {%- endif -%}
+  <title>{{ page_title }}</title>
+
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="author" content="{{ site.author.name }}">
+  <meta name="keywords" content="{{ site.keywords | join: ', ' }}">
 
-  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ page_title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.url == '/' %}profile{% else %}website{% endif %}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "alternateName": ["Wu Huiwen", "H. Wu"{% if site.author.name_zh %}, "{{ site.author.name_zh }}"{% endif %}],
+    "jobTitle": "{{ site.author.role }}",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "{{ site.author.affiliation }}"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Beihang University"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of California, Irvine" },
+      { "@type": "CollegeOrUniversity", "name": "Sichuan University" }
+    ],
+    "url": "{{ '/' | absolute_url }}",
+    "email": "mailto:{{ site.author.email }}",
+    "description": {{ site.description | strip_newlines | strip | jsonify }},
+    "knowsAbout": [
+      "Differential privacy",
+      "Federated learning",
+      "Privacy-preserving machine learning",
+      "Large language models",
+      "Numerical linear algebra",
+      "Multigrid methods",
+      "AI for science"
+    ],
+    "sameAs": [
+      "{{ site.author.scholar }}",
+      "https://github.com/{{ site.author.github }}",
+      "{{ site.author.genealogy }}"{% if site.author.orcid %},
+      "{{ site.author.orcid }}"{% endif %}{% if site.author.dblp %},
+      "{{ site.author.dblp }}"{% endif %}
+    ]
+  }
+  </script>
 
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">

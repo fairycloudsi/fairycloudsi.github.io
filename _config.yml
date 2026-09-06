@@ -12,10 +12,35 @@
 
 title: "Huiwen Wu"
 tagline: "Trustworthy foundation models, privacy-preserving LLMs, and AI for science"
+
+# Shown in the browser tab and, more importantly, as the headline in search
+# results. Leading with the name and affiliation is what makes the page rank for
+# "Huiwen Wu Beihang".
+title_long: "Huiwen Wu — Associate Researcher, Beihang University"
+
 description: >-
-  Huiwen Wu -- Associate Researcher at Beihang University, Hangzhou International
-  Innovation Institute. Differential privacy, federated optimization, and
-  numerical analysis for scientific foundation models.
+  Huiwen Wu (Wu Huiwen) is an Associate Researcher at Beihang University, Hangzhou
+  International Innovation Institute, working on differential privacy, federated
+  learning, privacy-preserving large language models, and numerical analysis for
+  scientific foundation models. PhD in Mathematics, UC Irvine.
+
+# Baidu still weighs the keywords meta tag; Google ignores it. Cheap to include,
+# and Baidu matters for a China-based researcher.
+keywords:
+  - "Huiwen Wu"
+  - "Wu Huiwen"
+  - "H. Wu"
+  - "Beihang University"
+  - "Hangzhou International Innovation Institute"
+  - "Zhejiang Lab"
+  - "differential privacy"
+  - "federated learning"
+  - "privacy-preserving machine learning"
+  - "large language models"
+  - "numerical analysis"
+  - "multigrid"
+  - "AI for science"
+  - "seismic foundation model"
 
 baseurl: ""
 url: "https://fairycloudsi.github.io"
@@ -33,6 +58,10 @@ author:
   linkedin: "Huiwen Wu"
   scholar: "https://scholar.google.com/citations?user=EYswXa8AAAAJ&hl=en"
   genealogy: "https://www.mathgenealogy.org/id.php?id=278734"
+  # Add these if you have them -- each one strengthens the identity signal.
+  # orcid: "https://orcid.org/0000-0000-0000-0000"
+  # dblp: "https://dblp.org/pid/xxx/yyy.html"
+  # name_zh: "吴慧文"     # your name in Chinese, for Baidu and Chinese-language search
   # Phone is deliberately omitted -- see README. Add it here only if you want a
   # personal number published on a public page.
 

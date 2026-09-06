@@ -4,17 +4,24 @@
    --------------------------------------------------------------------------- */
 
 :root {
-  --ground:   #fcfdfc;
-  --surface:  #f0f4f3;
-  --sunken:   #e4eae8;
-  --ink:      #131b1a;
-  --muted:    #55645f;
-  --faint:    #84948f;
-  --rule:     #d7e0dd;
-  --accent:   #0d5c55;
-  --accent-soft: #e0eeeb;
-  --mark:     #8a6410;
-  --mark-soft:#f7efdd;
+  /* Neutrals carry a slight blue bias so they read as chosen rather than
+     inherited, and sit correctly against the accent. */
+  --ground:   #fcfdfe;
+  --surface:  #eff3f8;
+  --sunken:   #e3eaf2;
+  --ink:      #131a22;
+  --muted:    #556071;
+  --faint:    #838d9c;
+  --rule:     #d7dfe9;
+  /* Two colours with two jobs:
+     BLUE  -- structure: navigation, links, headings, venue chips, card rules.
+     GOLD  -- emphasis: authorship roles, result figures, section markers.
+     Keeping the division strict is what stops the pair looking decorative. */
+  --accent:   #0f4c81;
+  --accent-soft: #e2ebf5;
+  --gold:     #8a6410;   /* text-safe: 5.3:1 on the ground */
+  --gold-soft:#f7efdd;
+  --gold-line:#b5860b;   /* decorative only -- rules and markers, never text */
 
   --display: "Spectral", Georgia, "Times New Roman", serif;
   --body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -23,17 +30,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --ground:   #0f1413;
-    --surface:  #171e1d;
-    --sunken:   #1f2827;
-    --ink:      #e4eae8;
-    --muted:    #9fb0ab;
-    --faint:    #778883;
-    --rule:     #2a3634;
-    --accent:   #5fbdb0;
-    --accent-soft: #142b28;
-    --mark:     #d3a45c;
-    --mark-soft:#2a2214;
+    --ground:   #0f1319;
+    --surface:  #171d25;
+    --sunken:   #1f2732;
+    --ink:      #e4e9f0;
+    --muted:    #9fabbc;
+    --faint:    #7a8698;
+    --rule:     #2a323e;
+    --accent:   #78ade0;
+    --accent-soft: #14243a;
+    --gold:     #d9ac66;
+    --gold-soft:#2c2416;
+    --gold-line:#c79a4d;
   }
 }
 
@@ -99,6 +107,7 @@ h1 {
   text-wrap: balance;
 }
 h2 {
+  position: relative;
   font-family: var(--display);
   font-size: 1.32rem;
   font-weight: 600;
@@ -106,6 +115,16 @@ h2 {
   margin: 2.6rem 0 0.9rem;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--rule);
+}
+/* Gold tick on every section rule -- the second colour doing structural work. */
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 2.4rem;
+  height: 2px;
+  background: var(--gold-line);
 }
 h3 {
   font-size: 1.02rem;
@@ -209,7 +228,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   white-space: nowrap;
 }
 .chip--venue { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
-.chip--role  { background: var(--mark-soft); color: var(--mark); }
+.chip--role  { background: var(--gold-soft); color: var(--gold); font-weight: 600; }
 
 /* --- Project cards -------------------------------------------------------- */
 
@@ -228,7 +247,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   border-top: 1px dashed var(--rule);
   font-size: 0.93rem;
 }
-.project .result strong { color: var(--accent); }
+/* The headline figure is the achievement -- gold, not blue. */
+.project .result strong { color: var(--gold); }
 
 /* --- Definition rows (expertise, services) -------------------------------- */
 

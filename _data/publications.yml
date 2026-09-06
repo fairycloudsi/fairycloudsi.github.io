@@ -9,6 +9,18 @@
 #   note     anything extra (acceptance rate, oral, ...)
 #   url      optional link; the title becomes a link when present
 # ---------------------------------------------------------------------------
+- year: 2026
+  title: "Decoding RR Lyrae light curves for accurate absolute magnitude estimation"
+  authors: "S. He, <span class=\"me\">H. Wu</span>, et al."
+  venue: "The Innovation"
+  rank: "Q1-Top"
+  role: "corresponding author"
+
+- year: 2026
+  title: "Weakest precondition calculus and relative completeness of satisfaction-based quantum Hoare logic"
+  authors: "X. Sun, et al."
+  venue: "Quantum Information Processing"
+  role: "co-author"
 
 - year: 2026
   title: "Synergizing Multigrid Algorithms with Vision Transformer: A Novel Approach to Enhance the Seismic Foundation Model"
@@ -16,13 +28,6 @@
   venue: "AAAI'26"
   rank: "CCF-A"
   role: "first author"
-
-- year: 2025
-  title: "Decoding RR Lyrae light curves for accurate absolute magnitude estimation"
-  authors: "S. He, <span class=\"me\">H. Wu</span>, et al."
-  venue: "The Innovation"
-  rank: "Q1-Top"
-  role: "corresponding author"
 
 - year: 2025
   title: "DR-Encoder: Encode Low-rank Gradients with Random Prior for Large Language Models Differentially Privately"
@@ -79,11 +84,6 @@
   rank: "CCF-C"
   role: "co-author"
 
-- year: 2025
-  title: "Weakest precondition calculus and relative completeness of satisfaction-based quantum Hoare logic"
-  authors: "X. Sun, et al."
-  venue: "Quantum Information Processing"
-  role: "co-author"
 
 - year: 2024
   title: "A Variational Approach to Personalized Federated Learning and its Improvement"
